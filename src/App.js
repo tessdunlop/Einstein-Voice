@@ -36,7 +36,7 @@ fetch('https://cloudresourcemanager.googleapis.com/v1/projects/', requestOptions
     .then(data => this.setState({ postId: data.id }));
 
     console.log(this.state.postId);
-    console.log(auth_key);
+    // console.log(auth_key);
 
 }
   render () {
